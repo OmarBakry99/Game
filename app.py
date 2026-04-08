@@ -373,6 +373,6 @@ def main():
     if show_answer:
         answer = items.get(int(user_input), 'No information available for this number.')
         st.write(f'the answer: {answer}')
-
+    pingSite()
 if __name__ == '__main__':
     main()
